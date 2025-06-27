@@ -50,10 +50,10 @@
       text-align: center;
       color: green;
       font-weight: bold;
-      margin-top: 20px;
+      margin-top: 30px;
       display: none;
     }
-     .mensagem img {
+    .mensagem img {
       margin-top: 15px;
       width: 300px;
     }
@@ -74,7 +74,7 @@
   </form>
 
   <div class="mensagem" id="mensagemFinal">
-    CHORA MAIS BAIXINHO
+    CHORA MAIS BAIXINHO!<br/>
     <img src="https://i0.statig.com.br/bancodeimagens/8z/u6/yu/8zu6yuxok35gxexzxhejwahhl.jpg" alt="rs" />
   </div>
 
@@ -85,7 +85,7 @@
     form.addEventListener("submit", function(event) {
       event.preventDefault(); // impede envio padrão
       form.style.display = "none"; // esconde o formulário
-      mensagem.style.display = "block"; // mostra mensagem
+      mensagem.style.display = "block"; // mostra mensagem + imagem
     });
   </script>
 
